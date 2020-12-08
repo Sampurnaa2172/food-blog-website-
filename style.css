@@ -1,0 +1,158 @@
+.footer{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: smaller;
+    background-color: greenyellow;
+}
+.footer2{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+}
+.fa{
+    padding: 20px;
+    text-align: center;
+    margin: 5px 2px;
+    font-size: 30px;
+    width: 50px;
+}
+.fa-facebook{
+    background: rgb(4, 77, 211);
+    color: white;
+}
+.fa-pinterest{
+    background:red;
+    color: white;
+}
+.fa-linkedin{
+    background: #7acef5;
+    color: white;
+}
+.fa-instagram{
+    background: rgb(223, 16, 130);
+    color: white;
+}
+.fa-youtube{
+    background: red;
+    color: white;
+}
+.fa-twitter{
+    background: rgb(47, 103, 207);
+    color: white;
+}
+.fa-google{
+    background: orange;
+    color: white;
+}
+.fa-snapchat-ghost{
+    background: yellow;
+    color: white;
+    text-shadow: -1px 0black,0 1px black,1px 0 black,0-1px black;
+}
+.fa-skype{
+    background: skyblue;
+    color: white;
+}
+.fa-hover{
+    opacity: 0.9;
+}
+.container {  
+    padding: 50px;  
+    background-color: lightblue;  
+    }  
+      
+    input[type=text] {  
+      width: 100%;  
+      padding: 15px;  
+    margin: 5px 0 22px 0;  
+    display: inline-block;  
+     border: none;  
+     background: #f1f1f1;  
+    }  
+    input[type=text]:focus {  
+    background-color: rgb(172, 166, 166);  
+    outline: none;  
+    }  
+     div {  
+             padding: 10px 0;  
+                  
+    }  
+    .registerbtn {  
+      background-color: #53c557;  
+      color: white;  
+      padding: 16px 20px;  
+      margin: 8px 0;  
+      border: none;  
+      cursor: pointer;  
+      width: 100%;  
+      opacity: 0.9;  
+    }  
+    .registerbtn:hover {  
+    opacity: 1;  
+    }.container {  
+        padding: 50px;  
+        background-color: lightblue;  
+        }  
+          
+        input[type=text] {  
+          width: 100%;  
+          padding: 15px;  
+        margin: 5px 0 22px 0;  
+        display: inline-block;  
+         border: none;  
+         background: #f1f1f1;  
+        }  
+        input[type=text]:focus {  
+        background-color:rgb(172, 166, 166);  
+        outline: none;  
+        }  
+         div {  
+                 padding: 10px 0;  
+                      
+        }  
+        .registerbtn {  
+          background-color: #53c557;  
+          color: white;  
+          padding: 16px 20px;  
+          margin: 8px 0;  
+          border: none;  
+          cursor: pointer;  
+          width: 100%;  
+          opacity: 0.9;  
+        }  
+        .registerbtn:hover {  
+        opacity: 1;  
+        }
+        /* Style the navigation bar */
+.navbar {
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    overflow: auto;
+  }
+  
+  /* Navbar links */
+  .navbar a {
+    float: center;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Navbar links on mouse-over */
+  .navbar a:hover {
+    background-color: yellow;
+  }
+  
+  /* Current/active navbar link */
+  .active {
+    background-color: #f5f106;
+  }
+  
+  /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
+  }
